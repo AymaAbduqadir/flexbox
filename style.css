@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color:#4da1a9;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 100px ;
+    align-items: center;
+    color: black;
+    position: sticky;
+    top: 0;
+}
+
+.header h1{
+    font-size: 2.5em;
+    font-weight: 900;
+    font-style: oblique;
+
+}
+
+.header .nav ul{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.header .nav a{
+    font-size: 1.6em;
+    color: black;
+    font-weight: 400;
+    font-style: italic;
+}
+.header .nav a:hover{
+    color: #2e5077;
+}
+
+
+/* hero section */
+
+.hero{
+    background: linear-gradient(to right , #4da1a9,#2e5077);
+    height: 50vh;
+}
+
+.hero .heading{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #f6f4f0;
+    gap: 1.6em;
+
+}
+
+.hero .heading h1{
+    font-size: 2.7em;
+    
+}
+
+.hero .heading p{
+    font-size: 1.4em;
+}
+
+.hero .heading  a button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    color: #2e5077;
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+
+
+.hero .heading  a button:hover{
+    background-color: #2e5077;
+    color: #f6f4f0;
+}
+
+
+/* features section */
+
+.features {
+    padding: 20px 30px;
+}
+.features h1{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.features .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+ 
+
+
+    
+}
+
+
+
+.features .box{
+    background-color:rgba(243, 244, 246, 0.915);
+      padding: 30px;
+      border-radius: 10px;
+      width: 28%;
+    
+}
+
+.features .box img{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.features .box h3 ,p{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+
+
+/* about */
+.about{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+   
+   /*  */
+
+}
+
+.about h1{
+    margin: 20px 0px;
+    font-size: 2.3em;
+
+}
+.about p{
+    width: 50%;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about button{
+    padding: 15px 30px;
+    background-color: #4da1a9;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+
+/* contect */
+
+.contect{
+    background-color:#2e5077;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: whitesmoke;
+}
+
+.contect h1{
+    font-size: 2.4em;
+}
+.contect input textarea{
+    /* width: 300px; */
+}
+
+
+form{
+    margin-top: 30px;
+    width: 35%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.contect button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.contect  a button:hover{
+    background-color: #4da1a9;
+    color: black;
+    letter-spacing: 3px;
+    
+}
+
+footer{
+    background-color: #4da1a9;
+    padding: 20px 30px;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+}
